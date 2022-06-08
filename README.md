@@ -2,6 +2,10 @@
    通过AOP将对象中的page分页参数进行解析，重填SQL达到分页的效果
      
 ## 使用方式
+    0、此jar未上传公共私服，请下载本地仓库进行引用，项目已配置本地上传组件，使用gradle的upload上传本地
+    
+**引用方式：implementation 'com.cas:mybatis-pagination:0.0.8-SNAPSHOT'**
+
     1、配置文件开启
     在application.yml 中配置开启分页插件
 
